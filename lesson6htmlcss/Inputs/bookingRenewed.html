@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="LabCreateAndTestForms/styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Booking</h1>
+        <form method="POST">
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" name="booking_date" id="booking_date">
+            </div>
+            <div>
+                <label for="booking_people">Number of People</label>
+                <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value=this.value">
+                <output>4</output>
+            </div>
+            <div>
+                <label for="booking_location">Location</label>
+                <input id="booking_location" name="booking_location" list="locations">
+                <datalist id="locations">
+                    <option value="Downtown">
+                    <option value="Uptown">
+                </datalist>
+            </div>
+            <div>
+                <button type="submit">Book table</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright Little Lemon</p>
+    </footer>
+</body>
+</html>

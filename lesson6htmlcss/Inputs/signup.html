@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Sign Up</h1>
+        <form>
+            <div>
+                <label for="user_first_name">First Name</label><br>
+                <input type="text" id="user_first_name" name="user_first_name">
+            </div>
+            <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_last_name">
+            </div>
+            <div>
+                <label for="user_email">Email</label><br>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" id="user_password" name="user_password" required minlength="6" maxlength="24">
+            </div>
+            <div>
+                <label for="user_confirm_password">Confirm Password</label><br>
+                <input type="password" id="user_confirm_password" name="user_confirm_password" required minlength="6" maxlength="24">
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <!--
+            Add a style rule to make the border of a required input red.
+            <style>
+                input:invalid {
+                    border: 2px solid red;
+                }
+            </style>
+        -->
+        <!--Add a style rule to make the border of an invalid input red when it is focused.-->
+        <style>
+            input:focus:invalid {
+                border: 2px solid red;
+            }
+            input:focus {
+                outline: none;
+            }
+        </style>
+    </main>
+    <footer>
+        <p>Copyright Little Lemon</p>
+    </footer>
+</body>
+</html>
