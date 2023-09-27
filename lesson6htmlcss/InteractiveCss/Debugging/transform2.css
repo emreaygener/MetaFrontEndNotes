@@ -14,3 +14,6 @@
     opacity: 50%;
     transition: 2s;
 }
+/* THE ".stylelintrc.json" FILE HAS TO BE ON THE PARENT FOLDER OF THE PROJECT */
+/* OR ELSE IT WONT WORK PROPERLY */
+/* I'm working with Meta-FrontendDeveloperCourse folder now therefore file should be at this file, if i were to work on debugging file files location would be correct. */
