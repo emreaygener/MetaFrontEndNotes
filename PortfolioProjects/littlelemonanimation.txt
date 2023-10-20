@@ -1,0 +1,21 @@
+@keyframes run {
+    0% {transform: translate3d(0,0,0);}
+    25%{transform: skew(65deg,0);}
+    26%{transform: skew(-5deg,0);}
+    50%{transform: skew(-5deg,0) translate3d(6400px,0,0);}
+    50.001%{transform: skew(-5deg,0) translate3d(-6400px,0,0);}
+    50.001%{transform: skew(-5deg,0) translate3d(-6400px,0,0);}
+    65%{transform: skew(-45deg,0) translate3d(0,0,0);}
+    75%{transform: skew(20deg,0);}
+    90%{transform: skew(-10deg,0);}
+    100% {transform: skew(0deg,0);}}
+
+header img {
+    display: block;
+    margin: 0 auto;
+
+    animation: run 2s linear;
+    animation-direction:normal;
+    animation-iteration-count:1;
+    animation-duration: .7s;
+    animation-delay: .3s;}
