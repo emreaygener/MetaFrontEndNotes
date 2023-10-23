@@ -1,3 +1,5 @@
 {
-    "stylelint.configFile": ".stylelintrc.json"
+  "stylelint.configFile": ".stylelintrc.json",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
