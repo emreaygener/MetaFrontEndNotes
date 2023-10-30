@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function InputComponent() {
   const [inputText, setText] = useState("hello");
@@ -70,6 +70,15 @@ function RegisterForm() {
   );
 }
 
+function ChangeWord() {
+  const [word, setWord] = React.useState("Eat");
+
+  function handleClick() {
+    setWord("Drink");
+  }
+  return <h1 onClick={handleClick}>{word + " at little lemon"}</h1>;
+}
+
 function App() {
   return (
     <div className="App">
@@ -78,6 +87,7 @@ function App() {
 
         <InputComponent />
         <RegisterForm />
+        <ChangeWord />
       </header>
     </div>
   );
