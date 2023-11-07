@@ -1,38 +1,40 @@
 // foreach
-const fruits = ['kiwi','mango','apple','pear'];
+const fruits = ["kiwi", "mango", "apple", "pear"];
 function appendIndex(fruit, index) {
-    console.log(`${index}. ${fruit}`)
+  console.log(`${index}. ${fruit}`);
 }
 fruits.forEach(appendIndex);
 
-const veggies = ['onion', 'garlic', 'potato'];
-veggies.forEach( function(veggie, index) {
-    console.log(`${index}. ${veggie}`);
+const veggies = ["onion", "garlic", "potato"];
+veggies.forEach(function (veggie, index) {
+  console.log(`${index}. ${veggie}`);
 });
 
 //filter
-const nums = [0,10,20,30,40,50];
-nums.filter( function(num) {
+const nums = [0, 10, 20, 30, 40, 50];
+console.log(
+  nums.filter(function (num) {
     return num > 20;
-})
+  })
+);
 
 //map
-var res = [0,10,20,30,40,50].map( function(num) {
-    return num / 10
-})
+var res = [0, 10, 20, 30, 40, 50].map(function (num) {
+  return num / 10;
+});
 console.log(res);
 
 // working with objects in js
 const result = [];
 const drone = {
-    speed: 100,
-    color: 'yellow'
-}
+  speed: 100,
+  color: "yellow",
+};
 const droneKeys = Object.keys(drone);
-droneKeys.forEach( function(key) {
-    result.push(key, drone[key])
-})
-console.log(result)
+droneKeys.forEach(function (key) {
+  result.push(key, drone[key]);
+});
+console.log(result);
 
 //working with maps
 let bestBoxers = new Map();
@@ -44,7 +46,7 @@ console.log(bestBoxers);
 console.log(bestBoxers.get(1)); // 'The Champion'
 
 //working with sets
-const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
+const repetitiveFruits = ["apple", "pear", "apple", "pear", "plum", "apple"];
 const uniqueFruits = new Set(repetitiveFruits);
 console.log(uniqueFruits);
 
