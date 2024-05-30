@@ -252,3 +252,365 @@ A customer journey map is a visual representation of the customer's experience w
 
 8. Reduce short-term memory load
    As users, our attention span may be limited, so anything you can do to make your users' jobs easier is a win-win situation. Your users may prefer to recognize information rather than recall it. Try to keep interfaces simple and consistent and keep to patterns, standards and conventions. This may contribute to better recognition and ease of use. Depending on your users' objectives, you can add various features to help them. In an e-commerce setting, for example, a list of recently viewed or purchased items can be presented.
+
+## Form design best practices and guidelines
+
+- **Keep forms simple and straightforward**
+
+Avoid adding any unnecessary fields or questions. Include only the required information in your form.
+
+- **Use one column**
+
+When possible, use a single-column web form layout — this is especially important when creating long multi-step forms. Single-column layouts are more straightforward for visitors to follow, understand, complete and submit than forms with multiple columns.
+
+- **Clearly label your form**
+
+Give your form a title that lets your visitors know what will happen once they submit it. For example, a simple form title like 'create an account' clearly states that once a visitor submits their information, they will have created an account.
+
+- **Sort your form fields from the simplest to the most difficult**
+
+Begin your form with the most straightforward field questions (such as name and email) before moving on to the more time-consuming questions, for example, billing and shipping information. When visitors start filling out your form and think, 'OK, I can quickly add my name and email,' they are far less likely to leave the page since they have already decided to commit.
+
+- **Make use of inline form field validation**
+
+Inline form validation is a procedure that checks a visitor's information in real-time as they fill out the form. Suppose your visitors enter incorrect information into a field, such as an incorrect credit card number or email. An error message will show below or inside the form field, alerting the visitor to their mistake and allowing them to quickly correct it and move on to the next question.
+
+- **The text should be aligned to the left**
+
+Align all your text – including queries and labels - to the left side of the form so that it is easy for your visitors to read and complete. Researchers at the University of Basel observed that aligning text on the left side, above the form field box, decreases the time required to fill out the form. This alignment reduces the time a user's eyes have to move around, making the form easier to read.
+
+- **Do not request phone numbers**
+
+Unless collecting your visitors' phone numbers is critical, for example, a quote request or product demo, don't include it in your form. Asking for your visitors' phone numbers can create a feeling of suspicion unless they know a legitimate reason for the request. When possible, request an email address instead and use that to contact your visitors with their permission. Alternatively, make the phone number field in your form voluntary.
+
+- **Use browser auto-fill**
+
+Completing specific form fields is now quicker than ever, thanks to autofill features in browsers that draw from prior data entered from a visitor's device, like their first and last name. To help your visitors speed up the completion process, it's best practice to title each field with a word that browsers will recognize.
+
+- **Create mobile-friendly forms**
+
+Many people browse, purchase products and complete forms on their mobile devices, which is why mobile-friendly form design is critical. This helps visitors to your website to easily view a site on any mobile device and ensures that all the form information fits the screen size.
+
+- **Error messages should be positive**
+
+Make sure to sound positive when creating web form error messages. This is a great way to ensure that only correct information is submitted. Never blame the user; instead, use clear and concise language and include information that guides the visitor to the error. This way, they know precisely where it is and how it needs to be corrected.
+
+- **Include smart defaults**
+
+Enabling smart defaults is another excellent way to help speed up the form completion process while maintaining accuracy. Smart defaults use information like your user's current location to instantly enter details like city or town, saving them time.
+
+- **For long forms, add progress bars**
+
+Have you ever filled out a long form or survey and thought, "How many other questions are there?" Progress bars show how many questions your visitors must answer. They will give them a clue of how long it will take them to finish the task and may act as a form of motivation to finish the task at hand. These are especially helpful on long, multi-step forms.
+
+- **Use reCAPTCHAs rather than CAPTCHAs**
+
+Have you ever been asked to look at a relatively challenging image with numbers and letters and then to type those numbers and letters into a form field to confirm you're "not a robot" after completing a form? CAPTCHAs are used to identify SPAM and bots. They can, however, be time-consuming and frustrating to finish. They are still helpful; you may want to include this additional security measure in your forms. If this is the case, you should use reCAPTCHAs in your forms instead. reCAPTCHAs identify fake accounts and bots not only successfully but also require that a visitor checks only a box before submitting a form. A CAPTCHA uses lettering for security whereas a ReCAPTCHA asks the user to identify elements of images.
+
+- **Allow users to navigate to the following form field by tab**
+
+There's no reason your form shouldn't support keyboard shortcuts, as there are many available. A good practice is to allow visitors to use the tab key on their keyboard to move to the following form field on your forms without having to take their hands off their keyboards.
+
+## How typography can be used to improve user experience
+
+Because Typography contains so many elements, many designers overlook this discipline because mastering it takes time and practice. Remember that good typography is format-specific, and usability equals legibility. Let's go over a few key steps to ensure your next UI has legible typography that conveys the appropriate mood for your text.
+
+- **Hierarchy**
+  The size of a text has a significant impact on the user's reading experience. Hierarchical elements should be used to separate the blocks and improve communication. The titles or headers, subtitles, and body text comprise a basic typography hierarchy. Because headings are at the top of the typographic hierarchy, they are larger and heavier.
+
+Remember to start with a font size that is comfortable for your body text. As a general rule of thumb:
+
+- For desktops, use a font size of 16 points or higher for body text
+
+- For iOS devices, use a text size of at least 11 point
+
+- For Android devices, use at least 14 points for the main text
+
+Because different sizes of body text are common, choose typefaces that work well in different sizes.
+
+- **Text colors**
+  Color selection is also essential. Colors are associated with various emotions as well as a visual hierarchy. As a result, it is a good idea to use different colors for titles, body text, links, buttons and error messages. Also, remember that the text color must contrast with the background color; this is critical for a good reading experience, and even though it may seem obvious, there still are a lot of non-legible buttons out there.
+
+- **Line length**
+  Take note of the length of the text lines. Set a length limit so that it isn't too long and interferes with the reading experience. To determine the best line length for a text, use a simple formula based on font size: multiply it by 30. So, if your font size is 10px, the ideal reading line length is 300px.
+
+- **Avoid text walls**
+  You should avoid creating a "wall of text." A wall of text, also known as a gray wall effect, is a single block of text that is devoid of any white space or other design elements. By inserting paragraph breaks at appropriate intervals, you can avoid the gray wall effect. You can also use the following design elements: images, quotations, headings and subheadings and bullet points. When working with long paragraphs, try to include anything that isn't text and breaks up the solid block.
+
+## **Grid systems**
+
+Grid systems are an essential tool in web design for creating visually appealing and organized layouts. They provide a framework for arranging elements on a page, ensuring consistency and alignment. By using a grid system, you can easily create responsive designs that adapt to different screen sizes.
+
+To learn more about grid systems in UX/UI design, you can visit [this link](https://www.coursera.org/learn/principles-of-ux-ui-design/supplement/FLg59/grid-systems).
+
+# Usability test cheat sheet and template
+
+## Usability testing
+
+Usability testing is an evaluative user research technique that allows key stakeholders and the project team to understand better how people interact with a product. Usability testing can be done during the design, development, or after the product has been released. During a usability test, participants are required to perform specific tasks with the product and provide feedback.
+
+Usability testing research methods can be conducted remotely or in person. The types are as follows:
+
+- User interviews
+
+- Unmoderated usability testing
+
+### User interviews
+
+It is critical to ask the right questions during a User Interview. You get what you ask for, as the saying goes! Because the researcher's time during an interview is limited and there is usually so much to cover, asking all possible questions is not an option. So, knowing which questions to ask and which to avoid is just as important as knowing how to ask them.
+
+#### Prior to the User Interview
+
+This is the stage when all of the research preparations are made. The following deliverables are produced as part of this phase:
+
+Discussion Guide - research questions are prepared here, though what you write may not always be what you ask during interviews.
+
+Interview Schedule
+
+Roles and responsibilities, for example, notetakers, moderators, translators, and so on.
+
+Scenarios List
+
+A list of test materials, if any, are required, such as design prototypes, competition websites, and so on.
+
+Reliance on stakeholders
+
+Forms of consent and disclosure, etc.
+
+Exit survey, which is mostly closed-ended questions
+
+#### During the User Interview cycle
+
+Whether the interviews are for exploratory or evaluative research, the ability to ask the right questions is crucial here. Let's explore some examples of how to run an effective interview.
+
+##### Different types of questions
+
+i) Warm-up question –it is important to get the participant talking and comfortable. For example, you can start by asking, "Do you prefer coffee or tea?"
+
+ii) Begin the investigation with open questions.
+
+- Explain your experience
+
+- How many/how much...
+
+- What is the cause of...
+
+- When was the last time you...
+
+- How do you...
+
+iii) Task-based questions
+
+- Show us how you do it...
+
+- What motivates you to do that...
+
+- What preparations do you need to make...
+
+iv) Recall a previous experience
+
+- Could you please share your most recent experience with...
+
+- Tell me everything you remember about the last time you used...
+
+- What was the most noteworthy aspect of...
+
+- Consider a real-life situation in which this could have been useful...
+
+v) Beliefs and attitudes
+
+- What are your thoughts on...
+
+- What do you enjoy the most about...
+
+- What do you despise the most...
+
+- In what way could this be useful...
+
+- If you were to consider the advantages of... what would they be...
+
+- What are your thoughts on...
+
+vi) Inquiry questions
+
+- Please tell me more about that.
+
+- Could you please elaborate?
+
+- Why did you go about it that way...
+
+- Why did you think that...
+
+- Let me repeat what you said. Is this what you meant?
+
+- What makes you think that...
+
+- If you think about it again...
+
+vii) Closing remarks
+
+- Do you have any questions you'd like to ask...
+
+- Is there anything else you'd like to say?
+
+#### After the User Interview
+
+After you conduct user interviews, it is time to review the data you collected to use it in your design. Debriefing and topline summary are important items in this step.
+
+##### Debriefing
+
+Debriefing aids in determining what went well during the session. What can be improved, prioritized and so on.
+
+##### Preparation and distribution of topline summary
+
+This keeps stakeholders up to date on current findings and aids in making initial project and product decisions.
+
+##### Updating the Research Schedule
+
+This step deals with dropouts, changes in participant availability and so on. Stakeholders will always have questions that will be triggered during the interview. As a result, a researcher acting as a moderator should be on the lookout for those questions and try to incorporate them into the interview if time allows. Try to be as broad as possible with open questions. And remember that there is always more than you can say.
+
+#### Unmoderated Usability Testing Types
+
+With regard to its relationship to usability testing, the term "unmoderated" refers to research participants using the product when no one is watching or interacting with them. Unmoderated usability testing can be done in two ways:
+
+##### Unmoderated in-person usability testing
+
+The product is used by the participants at a predetermined physical location. No one is watching the participants while they use the product. After the user session is finished, the researcher may record and investigate the interaction and any comments made during the product usage. This method of usability testing is less popular than remote unmoderated usability testing because it requires the presence of researchers and participants at a fixed time and location.
+
+##### Unmoderated remote usability testing
+
+This method employs a user research platform based on the Internet. The participants and the researcher do not need to be in the same place at the same time to use this method. They could be anywhere in the world where an internet connection is available. The participants complete the tasks, and their interactions with the product are recorded and uploaded to a server. The researchers later on, in their own time, access the screen recordings of the interactions and interpret the feedback from the participants. This feedback may include face recording as well as verbal think-aloud comments.
+
+##### How to Conduct an Unmoderated Usability Test
+
+To successfully conduct unmoderated remote usability testing, the following preparation is required:
+
+1. Define the usability testing objectives.
+
+- What do stakeholders want to learn?
+
+- How would the findings benefit the company?
+
+- Is the research method appropriate for all the objectives?
+
+- Are all stakeholders in agreement regarding the goal statements?
+
+- Which of the objectives can be included in future rounds of usability testing?
+
+2. Determine the participant profile
+
+- Number of targeted profiles and personas
+
+- Age group, gender, nationality, and income of the target audience
+
+- Relevant behavioral attributes, such as what they do, like, and dislike
+
+- Sample size: the number of participants in each profile
+
+3. Screen and shortlist candidates
+
+- Prepare a list of screener questions to help you select your candidates.
+
+- Determine which answers should qualify or disqualify candidates for participation.
+
+- Level of comfort in thinking aloud
+
+- Include a question to assess feedback articulation ability.
+
+- Collect contact information to distribute the usability test and reach out if necessary.
+
+- Request that participants consent to participate and agree to be recorded.
+
+- Request consent from participants to store their personal information, if any.
+
+- Include the type of incentive, the amount, and the payment method.
+
+4. Choose a platform for user research
+
+Choose a remote usability testing platform based on the information you want to collect and the products that participants will be testing.
+
+- Is the platform compatible with the research method you will conduct?
+
+- Is the platform capable of attracting participants?
+
+- Is the platform capable of testing test material?
+
+- Does the platform support the devices that the test must be run on, such as a computer or a mobile device?
+
+- Is the platform video-centric?
+
+5. Gather test materials
+
+Determine and decide what you want the participants to test with the following options:
+
+- Wireframes
+
+- Design prototypes
+
+- If necessary, the participants may need to sign a non-disclosure agreement.
+
+- The availability of test materials as a dependency must be included in the usability testing plan.
+
+6. Create a list of tasks to be completed as well as a list of usability metrics.
+
+- Make a list of the tasks that the participants would be responsible for. Create the tasks based on what users would accomplish with the product.
+
+- Limit yourself to 5 or 7 tasks at a time.
+
+- Each task must correspond to the study's objectives.
+
+- Tasks must be clearly worded and unambiguous.
+
+- Clearly defined success criteria.
+
+- Each task must specify an end state so that participants know the task has been completed.
+
+- The sequence in which tasks are to be presented is referred to as task flow.
+
+- Determine usability metrics for each task.
+
+7. Determine usability metrics for each task.
+
+- Failure or success
+
+- Time to complete the task
+
+- Time to first click or tap
+
+- Count of clicks and taps
+
+- Count of swipes
+
+- Paths of navigation, such as the number of pages or screens
+
+- A task's number of retries
+
+8. Plan questions to be asked after the tasks are finished
+
+Survey questions can be asked at the end of any task and immediately after completion. Survey questions can be of various types:
+
+- Unanswered questions
+
+- Single or multiple choice
+
+- Likert scale of 5 to 7 points
+
+- Dropdown
+
+- Matrix or ranking
+
+- Inquire about recall, task difficulty, and any additional information relevant to providing background information about participants, such as other similar experiences they have had.
+
+9. Perform a test run prior to the test launch.
+
+- Experimenting with the test yourself, also known as a dry run, helps to refine it.
+
+- Dry run with internal and external participants
+
+- Determine whether or not there is a fatigue factor in completing the test.
+
+- Check to see if everything is working as it should. For example, prototypes are loading correctly and are the correct ones.
+
+- Fine-tune questions and include information that may have been overlooked.
+
+- If everything is in order, start the test.
